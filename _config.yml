@@ -28,11 +28,11 @@ avatar: "/img/avatar-icon.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  Projects: "projects.md"
   Resources:
     - Getting started: "getstarted"
-    - Featured users: "featured-users"
-    - Project page: "https://github.com/daattali/beautiful-jekyll#readme"
-  About me: "http://deanattali.com"
+  About me: "aboutme.md"
+  Contact me
 
 # --- Footer options --- #
 
