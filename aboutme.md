@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About me
+subtitle: info
 ---
 
 I like long hikes, big data, cold craft beer, and my scottish terrier mix dog, [Fiona](https://twitter.com/jasdumas/status/679480102443417600).
