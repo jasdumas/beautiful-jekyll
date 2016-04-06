@@ -8,31 +8,31 @@
 #baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "http://jasdumas.github.io/beautiful-jekyll"
-baseurl: "/beautiful-jekyll"
+url: http://jasdumas.github.io/beautiful-jekyll
+baseurl: /beautiful-jekyll
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Beautiful Jekyll
+title: Jasmine Dumas
 
 # Short description of your site
-description: Quickly build a beautiful Jekyll website
+description: A webpage about me
 
 # --- Navigation bar options --- #
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: https://cloud.githubusercontent.com/assets/6685750/10718558/4b65c404-7b4c-11e5-9b1e-b0e1fae6c1f3.jpg
 
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Projects: "projects.md"
+  Projects: projects
   Resources:
-    - Getting started: "getstarted"
-  About me: "aboutme.md"
-  Contact me
+    - Getting started: getstarted
+  About me: aboutme
+
 
 # --- Footer options --- #
 
@@ -40,7 +40,7 @@ navbar-links:
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Jasmine Dumas
-  email: "JAsmine.dumas@gmail.com"
+  email: Jasmine.dumas@gmail.com
   github: jasdumas
   twitter: jasdumas
 
@@ -65,13 +65,13 @@ url-pretty: "jasdumas.github.io/beautiful-jekyll"  # eg. "deanattali.com/beautif
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-74123437-1"
+google_analytics: UA-74123437-1
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
 timezone: "America"
-markdown: kramdown
+#markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
